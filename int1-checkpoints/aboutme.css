@@ -1,0 +1,33 @@
+.frontheader {
+    text-align:center;
+     border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+
+.secondaryheader{
+    border-style: solid;
+    border-width: medium;
+    text-align:center;
+}
+
+.autobiography {
+    text-align:center;
+      border-style: solid;
+    border-width: medium;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #111;
+}
+
+

@@ -1,0 +1,52 @@
+#dnavbar a{
+    border: 2px solid black;
+    padding: 10px;
+    background-color:white;
+}
+
+#dnavbar a:hover{
+    background-color:grey;
+}
+
+#dnavbar li{
+    display:inline-block;
+}
+
+.divnavbar{
+    text-align:center;
+}
+
+body{
+    background-image:url(ezgif.gif);
+
+}
+
+.firstp > * {
+    display:inline-block;
+}
+
+.firstp {
+    border: 2px solid black;
+}
+
+.firsp {
+    text-align:center;
+}
+
+.firstp{
+    background-color:black;
+    text-align:center;
+}
+
+body {
+    color:white;
+    
+}
+
+.h1{
+    text-align:center;
+}
+
+.hi{
+    background-color:black;
+}

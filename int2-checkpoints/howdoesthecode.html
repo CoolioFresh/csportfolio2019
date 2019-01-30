@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>How The Code Works</title>
+     <link rel="stylesheet" href="howtopage2.css" type="text/css" />
+    <style>
+   body{
+           text-align: center;
+           background-image:url(greyback.jpg)
+           
+       }
+        h1 {
+            text-align: center;
+            border: 10px solid grey;
+            color: white;
+            padding: 15px;
+            font-family: 'Fjalla One', sans-serif;
+            background: black;
+            font-size: 50px;
+
+        }
+        
+        p {
+            text-align: center;
+            border: 10px solid grey;
+            color: white;
+            padding: 15px;
+            background: black;
+            font-size: 18px;
+            
+            
+        }
+        
+        h2{
+            text-align: center;
+            border: 10px solid grey;
+            color: white;
+            padding: 15px;
+            font-family: 'Fjalla One', sans-serif;
+            background: black;
+            font-size: 25px;
+            
+            
+            
+        }
+        
+        
+        
+        
+        
+    </style>
+</head>
+<body>
+        <div class="divnavbar">
+    <ul id="dnavbar">
+        <li><a href="howtopage.html">What I created</a></li>
+           <li><a href="explanation.html">Explanation of the Code</a> </li>
+        <li><a href="howdoesthecode.html">How does the Code work?</a> </li>
+        <li><a href="thechoicesimade.html">The Choices I made</a></li>
+        <li><a href="Javascript.html">Javascript</a></li>
+        <li><a href="moretime.html">If I Had More Time?</a></li>
+    </ul>
+    
+    <h1> How does the Code work?</h1>
+    
+    <h2>The Flag</h2>
+    
+    <img style="border:10px solid black" src="flagcode.png" width "180">
+    
+    <img style="border:10px solid black" src="starcode.png" width "180">
+    
+    <p> In the picture on the top, it shows the code I made for the main parts of the flag. I used the rect code to make the rectangles of the flag which make the top and 
+    bottom parts of it. To set the color of the flag, I used the fill variable to set the color of the rectangle by filling in an RGB code in the parentheses. However, to 
+    make the colors change, I set some variables to the same number as the RGB colors of red and blue, which I'll go over later. If you were to make your own art piece, then
+     you would just have to add the RGB number instead of the variable. Each shape in the art piece has a border, or a stroke in Javascript terms. Since a flag has no border,
+     the variable "strokeweight" is not present, but you could add a border if you wanted to. To change the color of the stroke, you use the code "Stroke". Since there is no
+     border, I left it as "0,0,0," the RGB code for black. To make the triangle and the stars, I used the code "triangle" to and added the points in the parentheses. The layout of a triangle
+     code is always "x1 ,y1 ,x2 ,y2 ,x3 ,y3." "x1, y1" are the horizontal and vertical locations of the first point, "x2, y2" are the horizontal and vertical locations of the 
+     second point, and "x3, y3" are the horizontal and vertical points of the third point.</p>
+    
+    <h2>The Rosary</h2>
+    
+    <img style="border:10px solid black" src="rosarycode.png" width "180">
+    
+    <p>In the picture listed on the top of this text, it shows the code of the rosary. I used the ellipse code to make the circles of the rosary. The ellipse code utilizes the x,y 
+    of the location you want it and the height and width of the circle. For example, I chose to have the circle be 30 pixels by 30 pixels. To make the string, I used the variable
+    "rect" to make rectangles. The code inside the parentheses follows the same structure as ellipses, which is that the first two variables controls the location of the rectangle, 
+    and the last the last two variables control the size of the variable. The "for (var i= 125;)" is a special type of code called a loop. A loop is a certain code that repeats itself
+    over and over again until it is told to stop. In my art piece, I used loops to make circles over and over again so I don't have to code them individually using the code "i&lt;width; i+=30&quot;</p>
+    
+    
+    <h3>Mouse Clicks</h3>
+    
+    <img style="border:10px solid black" src="conditionalcode.png" width "180">
+    
+    <p> In the picture on the top of this text, it shows the code of the color changing feature and rosary spawn. I used a special type of code called a conditional to make the color of the
+    flag to change everytime you click on the screen. Basically, it checks if the RGB variable values I talked about earlier. It uses statements called "if" and "else" to check if certain conditions
+    are met. For example, the code checks if the first variable is = 125, which is the first RGB value of the color red. If it is the same, then the code tells the system to replace the values of the 
+    variables topcolorred, topcolorgreen, and topcolorblue, which are the RGB variables, to the RGB color of Red. If it doesn't meet the requirments, which always happens if the red color is on the top, 
+    then the "Else" statement comes into play. If there red is on the top, then the code tells the system to change the variables of topcolorred, topcolorgreen, and topcolorblue to the RGB code of blue.
+    To make the rosary spawn, I used a statement called a function to seperate the code of the rosary from the flag code. Then, I used the code "mouseClicked" to tell the system that if the mouse is clicked.
+    then activate the function, which spawns the rosary.</p>
+</body>
+</html>
